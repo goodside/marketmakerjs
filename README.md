@@ -1,23 +1,22 @@
 # MarketMakerJS
 
-Proof-of-concept demonstration of automated trading on the Stellar network
+Proof-of-concept demo of automated trading on the Stellar network
 with pure client-side JS.
 
-Pre-alpha software — currently in planning/design stage.
+Pre-*pre*-alpha software — just planning/design at this point
 
 
 ## Motivation
 
-Though Bitcoin gives the world a decentralized, censorship-proof means of
-storing and transmitting wealth across borders, its economy is ironically
+Bitcoin gives us a decentralized, censorship-proof means of
+storing and transmitting wealth, but its economy is ironically
 reliant on centralized, for-profit exchanges.
 
-Cryptocurrency exchanges are notoriously risky: Early efforts often simply
-absconded with customer deposits, and Mt. Gox, once the largest Bitcoin exchange
-in the world, [ran fraudulently for
+Exchanges are notoriously risky. Early ones absconded with customer deposits,
+and Mt. Gox [ran fraudulently for
 years](http://blog.wizsec.jp/2015/04/the-missing-mtgox-bitcoins.html) after an
-undisclosed theft of its Bitcoin holdings. Even trustworthy exchanges are
-magnets for hackers, as seen in the [$72M theft from
+undisclosed theft in 2011. Honestly run exchanges are still magnets for hackers,
+as seen in the [$72M theft from
 Bitfinex](https://en.wikipedia.org/wiki/Bitfinex_hack) in which customers lost
 39% of their holdings. And when all goes well, traders still indirectly bear the
 costs of servers, support staff, KYC/AML identity verification, and constant
@@ -30,14 +29,21 @@ deposits of arbitrary assets, such as Bitcoin or US dollars. Other users can
 then trade these tokens with each other to speculate on the value of the
 underlying asset. Because this transaction happens on the Stellar network
 itself, not on a centralized exchange, users do not need to trust an exchange
-operator with their funds. Just as importantly, because the network is
-decentralized, a user can't be censored from participating anonymously &mdash; a
-stark contrast to modern exchanges that require proof of identity.
+operator with their funds. Users also can't be censored from participating
+anonymously, easing friction for new traders entering the market.
 
-For all their merits, decentralized exchanges (DEXs) have not yet had any
-significant adoption. Traders need market liquidity, and the trivially low
-volume on most DEXs creates a chicken-and-egg problem for attracting users. This
-project aims to fix that.
+For all their merits, decentralized exchanges (DEXs) like Stellar's have not
+caught on. Traders need liquidity, and the trivially low volume on most DEXs
+creates a chicken-and-egg problem: Users stay away because know their trades
+won't be executed at a fair price, and would-be market makers and arbitrageurs
+stay away because there are no profit to developing, testing, and hosting
+trading algorithms for an inactive market.
+
+This project aims to fix this deadlock by making it radically simple for
+*absolutely anyone* to become a market maker. A Stellar user should be able to
+point her browser to this Github project, type her secret key, and passively
+earn money every hour the tab is open. [There's no step
+three.](https://www.youtube.com/watch?v=6uXJlX50Lj8)
 
 ## Design
 
