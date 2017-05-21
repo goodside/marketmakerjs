@@ -26,28 +26,24 @@ DDoS attacks from market manipulators.
 decentralized payment network and cryptocurrency with a built-in asset exchange.
 Any user may become an "anchor" and issue their own custom tokens to represent
 deposits of arbitrary assets, such as Bitcoin or US dollars. Other users can
-then trade these tokens with each other to speculate on the value of the
-underlying asset. Because this transaction happens on the Stellar network
-itself, not on a centralized exchange, users do not need to trust an exchange
-operator with their funds. Users also can't be censored from participating
-anonymously, easing friction for new traders entering the market.
+then trade these tokens to speculate both on the value of the underlying asset
+and the reputation of the anchor. Because this transaction happens on the
+Stellar network itself, not on a centralized exchange, users do not need to
+trust an exchange operator with their funds. Users also can't be censored from
+participating anonymously, easing friction for new traders entering the market.
 
-For all their merits, decentralized exchanges (DEXs) like Stellar's have not
-caught on. Traders need liquidity, and the trivially low volume on most DEXs
-creates a chicken-and-egg problem: Users stay away because know their trades
-won't be executed at a fair price, and would-be market makers and arbitrageurs
-stay away because there are no profit to developing, testing, and hosting
-trading algorithms for an inactive market.
+For all their merits, decentralized exchanges like Stellar's have not caught on.
+Traders need liquidity, and trivially low volume creates a chicken-and-egg
+problem: Users stay away because know their trades won't be executed at a fair
+price, and would-be market makers and arbitrageurs stay away because there are
+no profit to developing, testing, and hosting trading algorithms for an empty
+market.
 
-This project aims to fix this deadlock by making it radically simple for
+This project aims to fix the deadlock by making it radically simple for
 *absolutely anyone* to become a market maker. A Stellar user should be able to
 point her browser to this Github project, type her secret key, and passively
-earn money every hour the tab is open. [There's no step
+earn a return on her money every hour the tab is open. [There's no step
 three.](https://www.youtube.com/watch?v=6uXJlX50Lj8)
-
-## Design
-
-[[TODO]]
 
 ## License
 
